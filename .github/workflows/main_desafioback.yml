@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'desafioback'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F289BA26EE3D428E88FEB11B8CFEFF4D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CEFC0D3C24024C2B962D1D1E3BB01B15 }}
           package: .
