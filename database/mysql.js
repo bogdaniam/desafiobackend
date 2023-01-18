@@ -3,6 +3,7 @@ const jwt = require('jsonwebtoken')
 const fs=require("fs");
 const cCA = fs.readFileSync(`${__dirname}/../DigiCertGlobalRootCA.crt.pem`)
 
+
 conexion = {
     abrir: async (cookies) => {
         const Sequelize = require('sequelize')
